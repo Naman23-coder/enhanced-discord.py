@@ -135,6 +135,7 @@ application_option_type_lookup = {
     (discord.abc.GuildChannel, discord.Thread): 7,
     discord.Role: 8,
     float: 10,
+    (discord.Attachment, discord.File): 11,
 }
 application_option_channel_types = {
     discord.VoiceChannel: [2],
